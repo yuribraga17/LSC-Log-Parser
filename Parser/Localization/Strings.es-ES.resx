@@ -118,9 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="MainIP" xml:space="preserve">
-    <value>26.230.193.30_22008</value>
+    <value>177.54.146.228_22008</value>
   </data>
   <data name="SecondaryIP" xml:space="preserve">
-    <value>26.230.193.30:22008</value>
+    <value>177.54.146.228:22008</value>
   </data>
 </root>

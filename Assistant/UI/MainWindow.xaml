@@ -25,7 +25,7 @@
             <Button x:Name="OpenProgramSettings"
                     Click="OpenProgramSettings_Click"
                     Content="{iconPacks:Material Settings, Width=18, Height=18}"
-                    ToolTip="Configurações" />
+                    ToolTip="Configs" />
 
             <Button x:Name="OpenGithubProject"
                     Visibility="Collapsed"
@@ -62,7 +62,7 @@
     <DockPanel>
         <Menu x:Name="MenuStrip" DockPanel.Dock="Top">
             <MenuItem x:Name="BackupSettingsToolStripMenuItem" Header="Configurações automáticas de backup" Click="BackupSettingsToolStripMenuItem_Click"/>
-            <MenuItem x:Name="FilterChatLogToolStripMenuItem" Header="Filtro de log de bate -papo" Click="FilterChatLogToolStripMenuItem_Click"/>
+            <MenuItem x:Name="FilterChatLogToolStripMenuItem" Header="Filtro chatlog" Click="FilterChatLogToolStripMenuItem_Click"/>
             <MenuItem x:Name="LanguageToolStripMenuItem" Header="Alterar servidor" Visibility="Collapsed"/>
             <MenuItem x:Name="AboutToolStripMenuItem" Header="Sobre" Click="AboutToolStripMenuItem_Click"/>
             <MenuItem x:Name="ExitToolStripMenuItem" Header="Saída" Visibility="Hidden" Click="ExitToolStripMenuItem_Click"/>

@@ -190,7 +190,7 @@ namespace Parser.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 26.230.193.30_22005.
+        ///   Looks up a localized string similar to 177.54.146.228_22005.
         /// </summary>
         internal static string SecondaryIP {
             get {

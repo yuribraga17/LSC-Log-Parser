@@ -11,7 +11,7 @@ namespace Assistant.Controllers
 {
     public static class AppController
     {
-        public const string AssemblyVersion = "4.1.8";
+        public const string AssemblyVersion = "4.1.9";
         public static readonly string Version = $"v{AssemblyVersion}";
         public const bool IsBetaVersion = false;
         public static bool CanFollowSystemColor = false;
@@ -39,7 +39,7 @@ namespace Assistant.Controllers
             try
             {
                 ResourceDirectory = "Nao encontrado";
-                LogLocation = $"client_resources\\{@"26.230.193.30_22005"}\\.storage";
+                LogLocation = $"client_resources\\{@"177.54.146.228_22005"}\\.storage";
 
                 // Return if the user has not picked
                 // a RAGEMP directory path yet
