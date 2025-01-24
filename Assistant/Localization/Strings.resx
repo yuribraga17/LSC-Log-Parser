@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>Assistente de chat log do LSC.
+
+Versão instalada: {0} {1}
+Diretório de recursos: {2}</value>
+  </data>
+  <data name="AdvancedFilter" xml:space="preserve">
+    <value>Filtro avançado</value>
+  </data>
+  <data name="AlreadyExistingDirectoriesWarning" xml:space="preserve">
+    <value> Porque o "{0}" Os diretórios já existem.</value>
+  </data>
+  <data name="AutoStartDisableError" xml:space="preserve">
+    <value>Ocorreu um erro ao tentar desativar a função de inicialização automática.</value>
+  </data>
+  <data name="AutoStartEnableError" xml:space="preserve">
+    <value>Ocorreu um erro ao tentar ativar a função de inicialização automática.</value>
+  </data>
+  <data name="AutoStartWarning" xml:space="preserve">
+    <value>Esse recurso parará de funcionar se você excluir ou mover o analisador para um local diferente.</value>
+  </data>
+  <data name="BackupError" xml:space="preserve">
+    <value> Ocorreu um erro ao tentar salvar automaticamente o log de bate -papo.
+
+Certifique-se de escolher um diretório não-sistema para o seu caminho de backup.</value>
+  </data>
+  <data name="BackupMoveError" xml:space="preserve">
+    <value>Um erro ocorreu ao mover os arquivos de backup para o novo diretório.</value>
+  </data>
+  <data name="BackupStatus" xml:space="preserve">
+    <value>Backup automático: {0}</value>
+  </data>
+  <data name="BackupTurnedOff" xml:space="preserve">
+    <value>O backup automático foi desligado, configure -o novamente se desejar usá -lo.</value>
+  </data>
+  <data name="BackupWillBeOff" xml:space="preserve">
+    <value>A função de backup automática será desligada enquanto a caixa de diálogo Configurações estiver aberta e as novas configurações serão aplicadas apenas quando você fechar a caixa de diálogo Configurações.
+
+Você gostaria de continuar?</value>
+  </data>
+  <data name="BadBackupPath" xml:space="preserve">
+    <value>Escolha um diretório sem raios para o seu local de diretório de backup.</value>
+  </data>
+  <data name="BadBackupPathSave" xml:space="preserve">
+    <value>Escolha um local de backup válido ou desative o backup automático.</value>
+  </data>
+  <data name="BadDirectoryPath" xml:space="preserve">
+    <value>Escolha um diretório sem raios para o seu local de diretório RAGEMP.</value>
+  </data>
+  <data name="Beta" xml:space="preserve">
+    <value>Beta</value>
+  </data>
+  <data name="BetaShort" xml:space="preserve">
+    <value>b</value>
+  </data>
+  <data name="CharacterCounter" xml:space="preserve">
+    <value>{0} personagens e {1} linhas</value>
+  </data>
+  <data name="CurrentTime" xml:space="preserve">
+    <value>Horário atual: {0}</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="FacebrowserLink" xml:space="preserve">
+    <value>https://snapmatic.flextor.com.br</value>
+  </data>
+  <data name="FeatureShowcaseLink" xml:space="preserve">
+    <value>https://ls-chronicles.com.br/forum/</value>
+  </data>
+  <data name="FileDeleteError" xml:space="preserve">
+    <value>Ocorreu um erro ao tentar excluir o arquivo.</value>
+  </data>
+  <data name="FilterHint" xml:space="preserve">
+    <value>Você pode ter apenas uma palavra, número ou par de nomes válidos em cada linha, se desejar filtrar seu log de bate -papo.
+Exemplo: Barco, $500, John, John Doe ou John_Doe</value>
+  </data>
+  <data name="FilterHintNoMatches" xml:space="preserve">
+    <value>No matches found.
+
+Certifique -se de ter apenas uma palavra, número ou par de nomes válidos em cada linha.
+Exemplo: Barco, $500, John, John Doe ou John_Doe</value>
+  </data>
+  <data name="FilterHintSkipped" xml:space="preserve">
+    <value>Uma ou mais palavras foram ignoradas durante a operação de filtragem porque não estão em um formato válido.
+
+Certifique -se de ter apenas uma palavra, número ou par de nomes válidos em cada linha.
+Exemplo: Barco, $500, John, John Doe ou John_Doe</value>
+  </data>
+  <data name="FilterLogStatus" xml:space="preserve">
+    <value>Chat log{0} loaded{1}</value>
+  </data>
+  <data name="FilterReadError" xml:space="preserve">
+    <value>Ocorreu um erro ao ler o arquivo selecionado.</value>
+  </data>
+  <data name="DirectoryFinder" xml:space="preserve">
+    <value>Encontrou automaticamente seu diretório RAGEMP em {0}
+
+Procure o caminho correto manualmente se estiver incorreto ou você tiver várias instalações RAGEMP.</value>
+  </data>
+  <data name="DirectoryFinderError" xml:space="preserve">
+    <value>Ocorreu um erro ao tentar encontrar automaticamente a localização do seu diretório RAGEMP, procure manualmente.</value>
+  </data>
+  <data name="DirectoryFinderNotFound" xml:space="preserve">
+    <value>Não foi possível detectar o caminho para o seu diretório RAGEMP, procure manualmente.</value>
+  </data>
+  <data name="DirectoryFinderTitle" xml:space="preserve">
+    <value>Informação (Primeiro começo)</value>
+  </data>
+  <data name="ForumsLink" xml:space="preserve">
+    <value>https://ls-chronicles.com.br/forum/</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Informação</value>
+  </data>
+  <data name="IntervalHint" xml:space="preserve">
+    <value>Faça backup do log de bate -papo automaticamente enquanto o jogo está sendo executado (toda {0} {1})</value>
+  </data>
+  <data name="IntervalRecommended" xml:space="preserve">
+    <value>{0}. (recomendada)</value>
+  </data>
+  <data name="InvalidDirectoryPath" xml:space="preserve">
+    <value>Caminho de diretório RAGEMP inválido.</value>
+  </data>
+  <data name="InvalidDirectoryPathBackup" xml:space="preserve">
+    <value>Escolha um local de diretório RAGEMP válido antes de tentar ativar o backup automático.</value>
+  </data>
+  <data name="InvalidDirectoryPathFilter" xml:space="preserve">
+    <value>Escolha um local de diretório RAGEMP válido antes de tentar filtrar seu log de bate -papo.</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Linguagem</value>
+  </data>
+  <data name="LanguageInfo" xml:space="preserve">
+    <value>O idioma escolhido será usado para extrair o log de bate -papo do servidor correto.
+
+Isso significa que, se você escolher o inglês, só poderá analisar o log de bate -papo gerado no servidor inglês.Você precisará alterar o idioma do aplicativo se desejar analisar outros logs de bate -papo.</value>
+  </data>
+  <data name="LoadedAt" xml:space="preserve">
+    <value> at {0}</value>
+  </data>
+  <data name="MainIP" xml:space="preserve">
+    <value>26.230.193.30_22005</value>
+  </data>
+  <data name="MinimizeInsteadOfClose" xml:space="preserve">
+    <value>Fechar o analisador impedirá que os backups automáticos aconteçam.
+
+Você gostaria de minimizar o analisador para a bandeja do sistema?</value>
+  </data>
+  <data name="MinutePlural" xml:space="preserve">
+    <value>minutos</value>
+  </data>
+  <data name="MinuteSingular" xml:space="preserve">
+    <value>minuto</value>
+  </data>
+  <data name="MoveBackups" xml:space="preserve">
+    <value>Você gostaria de mover todos os seus arquivos de backup existentes para o novo diretório?</value>
+  </data>
+  <data name="MultipleChatLogs" xml:space="preserve">
+    <value>Vários diretórios de recursos LSC foram encontrados.É recomendável que você use um único IP para conectar -se ao servidor e excluir o outro diretório de recursos.
+
+Mantenha-se "{0}" ou "{1}".</value>
+  </data>
+  <data name="Negation" xml:space="preserve">
+    <value> não</value>
+  </data>
+  <data name="NoChatLog" xml:space="preserve">
+    <value>Não consigo encontrar o LSC chat log.</value>
+  </data>
+  <data name="NoChatLogLoaded" xml:space="preserve">
+    <value>Você ainda não carregou um log de bate -papo.</value>
+  </data>
+  <data name="NoInternet" xml:space="preserve">
+    <value>Nenhuma atualização foi encontrada.
+Tente verificar sua conexão com a Internet ou aumentar o tempo limite de verificação de atualização na janela Configurações.
+
+Versão instalada: {0}</value>
+  </data>
+  <data name="NothingFiltered" xml:space="preserve">
+    <value>Você ainda não filtrou nada.</value>
+  </data>
+  <data name="NothingMovedWarning" xml:space="preserve">
+    <value>Não moveu nenhum diretório para o novo local</value>
+  </data>
+  <data name="NothingParsed" xml:space="preserve">
+    <value>Você ainda não analisou nada.</value>
+  </data>
+  <data name="NoWordsToFilter" xml:space="preserve">
+    <value>Você não inseriu nenhuma palavra para filtrar.
+
+Use o filtro simples se você não deseja filtrar para palavras.</value>
+  </data>
+  <data name="OldChatLog" xml:space="preserve">
+    <value>Um formato antigo foi detectado enquanto analisava o log de bate -papo e é aconselhável que você o exclua e todos os outros scripts que não se atualizam correcamente.
+
+Você gostaria de excluir esses arquivos?
+(O arquivo de log de bate -papo será analisado antes da exclusão)</value>
+  </data>
+  <data name="OpenDocumentation" xml:space="preserve">
+    <value>Gostaria de abrir a página de documentação para o analisador de log de bate -papo encontrado nos fóruns do LSC?</value>
+  </data>
+  <data name="OtherInstanceRunning" xml:space="preserve">
+    <value>Outra instância já está em execução, verifique sua barra de tarefas ou gerenciador de tarefas.</value>
+  </data>
+  <data name="ParseError" xml:space="preserve">
+    <value>Ocorreu um erro ao analisar o log de bate -papo.</value>
+  </data>
+  <data name="PartialMoveWarning" xml:space="preserve">
+    <value>Apenas moveu o "{0}" diretórios para o novo local</value>
+  </data>
+  <data name="ProjectLink" xml:space="preserve">
+    <value>https://github.com/yuribraga17/LSC-Log-Parser</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Pergunta</value>
+  </data>
+  <data name="ReleasesLink" xml:space="preserve">
+    <value>https://github.com/yuribraga17/LSC-Log-Parser/releases</value>
+  </data>
+  <data name="Restart" xml:space="preserve">
+    <value>Reiniciar</value>
+  </data>
+  <data name="RunningLatest" xml:space="preserve">
+    <value>Você está executando a versão mais recente do analisador de log de bate -papo.
+
+Versão instalada: {0}</value>
+  </data>
+  <data name="SameHashWarning" xml:space="preserve">
+    <value>O mesmo registro de bate -papo foi backup {0} Ou mais vezes, o que significa que o script do cliente RAGEMP responsável pelo registro do seu bate -papo está quebrado.
+
+Isso acontece quando você perde a conexão com a Internet ou o servidor trava.A única maneira conhecida de corrigir o problema é excluir os diretórios de recursos para o servidor em que você está sendo reproduzido.
+
+Os logs de bate -papo perdidos não podem ser recuperados.</value>
+  </data>
+  <data name="SaveError" xml:space="preserve">
+    <value>Ocorreu um erro ao tentar salvar o arquivo.</value>
+  </data>
+  <data name="SecondaryIP" xml:space="preserve">
+    <value>26.230.193.30_22005</value>
+  </data>
+  <data name="SecondPlural" xml:space="preserve">
+    <value>segundos</value>
+  </data>
+  <data name="SecondSingular" xml:space="preserve">
+    <value>segundo</value>
+  </data>
+  <data name="SettingsAfterClose" xml:space="preserve">
+    <value>As configurações serão aplicadas apenas quando você fechar a caixa de diálogo Configurações.</value>
+  </data>
+  <data name="SimpleFilter" xml:space="preserve">
+    <value>Filtro simples</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Começar</value>
+  </data>
+  <data name="SuccessfulBackup" xml:space="preserve">
+    <value>Com sucesso analisado e backup de log de bate -papo para {0}</value>
+  </data>
+  <data name="SwitchServer" xml:space="preserve">
+    <value>O analisador precisa reiniciar para mudar para o servidor selecionado.
+
+Você gostaria de aplicar as alterações e reiniciar o aplicativo agora?</value>
+  </data>
+  <data name="UCPLink" xml:space="preserve">
+    <value>https://ucp.ls-chronicles.com.br</value>
+  </data>
+  <data name="UpdateAbortTime" xml:space="preserve">
+    <value>{0}.</value>
+  </data>
+  <data name="UpdateAvailable" xml:space="preserve">
+    <value>Uma nova versão do analisador de log de bate -papo está agora disponível no GitHub.
+
+Versão instalada: {0}
+Versão disponível: {1}
+
+Você gostaria de visitar a página de lançamentos agora?</value>
+  </data>
+  <data name="UpdateAvailableTitle" xml:space="preserve">
+    <value>Atualização disponível</value>
+  </data>
+  <data name="VersionInfo" xml:space="preserve">
+    <value>{0}{1}</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Aviso</value>
+  </data>
+</root>
