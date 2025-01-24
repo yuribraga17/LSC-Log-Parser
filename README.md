@@ -21,4 +21,4 @@ Certifique-se de restaurar as dependências do pacote NuGet antes de compilar o 
 
 ## Informações Adicionais
 
-Distribuído sob a licença GPLv3. Consulte o arquivo ``LICENSE`` para mais informações.
+Distribuído sob a licença GPLv3. Consulte o arquivo ``LICENSE`` para mais informações
