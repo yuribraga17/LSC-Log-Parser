@@ -1,7 +1,7 @@
 # Assistente chatlog LSC
 Este programa é utilizado para converter os chatlogs gerados enquanto você joga no LSC em texto legível.
 
-![](logo.png)
+![](header.png)
 
 ## Primeiros Passos
 
