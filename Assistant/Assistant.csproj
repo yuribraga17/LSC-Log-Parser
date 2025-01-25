@@ -9,6 +9,8 @@
     <UseWindowsForms>true</UseWindowsForms>
     <UseWPF>true</UseWPF>
     <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+    <Configurations>Debug;Release;oficial</Configurations>
+    <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>Resources\AppIcon.ico</ApplicationIcon>
@@ -51,9 +53,12 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="ControlzEx" Version="3.0.2.4" />
-    <PackageReference Include="Costura.Fody" Version="4.1.0" />
+    <PackageReference Include="Costura.Fody" Version="4.1.0" PrivateAssets="All" />
     <PackageReference Include="Extended.Wpf.Toolkit" Version="4.0.1" />
-    <PackageReference Include="Fody" Version="6.2.0" />
+    <PackageReference Include="Fody" Version="6.2.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
     <PackageReference Include="MahApps.Metro" Version="1.6.5" />
     <PackageReference Include="MahApps.Metro.IconPacks.Material" Version="3.7.0" />
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />

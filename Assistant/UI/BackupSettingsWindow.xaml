@@ -21,13 +21,13 @@
                                        DarkCloseButtonStyle="{StaticResource MahApps.Metro.Styles.WindowButton.Close.Dark.Win10}"/>
     </Controls:MetroWindow.WindowButtonCommands>
 
-<Grid>
+    <Grid>
         <Label x:Name="BackupPathLabel" Content="Caminho do Backup:" HorizontalAlignment="Left" Margin="5,10,0,0" VerticalAlignment="Top" Width="455"/>
         <TextBox x:Name="BackupPath" MouseLeftButtonUp="BackupPath_MouseLeftButtonUp" TextChanged="BackupPath_TextChanged" HorizontalAlignment="Left" Height="23" Margin="10,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="370" IsReadOnly="True" VerticalScrollBarVisibility="Disabled"/>
         <Button x:Name="Browse" Click="Browse_Click" Content="Procurar" HorizontalAlignment="Left" Margin="385,36,0,0" VerticalAlignment="Top" Width="75"/>
-        <CheckBox x:Name="BackUpChatLogAutomatically" Checked="BackUpChatLogAutomatically_CheckedChanged" Unchecked="BackUpChatLogAutomatically_CheckedChanged" Content="Analisar e fazer backup do log de bate-papo automaticamente (quando o jogo fechar)" HorizontalAlignment="Left" Margin="10,68,0,0" VerticalAlignment="Top" Width="450"/>
-        <CheckBox x:Name="EnableIntervalBackup" Checked="EnableIntervalBackup_CheckedChanged" Unchecked="EnableIntervalBackup_CheckedChanged" Content="Fazer backup do log de bate-papo automaticamente enquanto o jogo estiver rodando (a cada 10 minutos)" HorizontalAlignment="Left" Margin="10,91,0,0" VerticalAlignment="Top" Width="450" IsEnabled="False"/>
-        <Label x:Name="IntervalLabel1" Content="Fazer backup do log de bate-papo a cada" HorizontalAlignment="Left" Margin="5,114,0,0" VerticalAlignment="Top" Width="132"/>
+        <CheckBox x:Name="BackUpChatLogAutomatically" Checked="BackUpChatLogAutomatically_CheckedChanged" Unchecked="BackUpChatLogAutomatically_CheckedChanged" Content="Analisar e fazer backup do chatlog automaticamente (quando o jogo fechar)" HorizontalAlignment="Left" Margin="10,68,0,0" VerticalAlignment="Top" Width="450"/>
+        <CheckBox x:Name="EnableIntervalBackup" Checked="EnableIntervalBackup_CheckedChanged" Unchecked="EnableIntervalBackup_CheckedChanged" Content="Fazer backup do chatlog automaticamente enquanto o jogo estiver rodando (a cada 10 minutos)" HorizontalAlignment="Center" Margin="0,91,0,0" VerticalAlignment="Top" Width="456" IsEnabled="False"/>
+        <Label x:Name="IntervalLabel1" Content="Fazer backup chatlog a " HorizontalAlignment="Left" Margin="5,114,0,0" VerticalAlignment="Top" Width="132"/>
         <xctk:IntegerUpDown ValueChanged="Interval_ValueChanged" TextAlignment="Center" x:Name="Interval" Margin="138,116,0,0" Maximum="60" Minimum="1" Value="10" Text="10" IsEnabled="False" HorizontalAlignment="Left" Width="45" Height="26" VerticalAlignment="Top" />
         <Label x:Name="IntervalLabel2" Content="minutos. (recomendado)" HorizontalAlignment="Left" Margin="189,114,0,0" VerticalAlignment="Top" Width="271"/>
         <CheckBox x:Name="RemoveTimestamps" Content="Remover marcas de tempo do backup" HorizontalAlignment="Left" Margin="10,145,0,0" VerticalAlignment="Top" Width="450" IsEnabled="False"/>

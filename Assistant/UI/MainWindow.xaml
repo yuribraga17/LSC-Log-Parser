@@ -19,7 +19,7 @@
                                        LightCloseButtonStyle="{StaticResource MahApps.Metro.Styles.WindowButton.Close.Light.Win10}"
                                        DarkCloseButtonStyle="{StaticResource MahApps.Metro.Styles.WindowButton.Close.Dark.Win10}"/>
     </Controls:MetroWindow.WindowButtonCommands>
-    
+
     <Controls:MetroWindow.RightWindowCommands>
         <Controls:WindowCommands>
             <Button x:Name="OpenProgramSettings"
@@ -61,7 +61,7 @@
 
     <DockPanel>
         <Menu x:Name="MenuStrip" DockPanel.Dock="Top">
-            <MenuItem x:Name="BackupSettingsToolStripMenuItem" Header="Configurações automáticas de backup" Click="BackupSettingsToolStripMenuItem_Click"/>
+            <MenuItem x:Name="BackupSettingsToolStripMenuItem" Header="Configs de backup" Click="BackupSettingsToolStripMenuItem_Click"/>
             <MenuItem x:Name="FilterChatLogToolStripMenuItem" Header="Filtro chatlog" Click="FilterChatLogToolStripMenuItem_Click"/>
             <MenuItem x:Name="LanguageToolStripMenuItem" Header="Alterar servidor" Visibility="Collapsed"/>
             <MenuItem x:Name="AboutToolStripMenuItem" Header="Sobre" Click="AboutToolStripMenuItem_Click"/>
@@ -69,7 +69,11 @@
         </Menu>
 
         <Grid>
-            <Image x:Name="Logo" HorizontalAlignment="Left" Height="228" VerticalAlignment="Top" Width="165" Source="../Resources/Logo.png" Margin="10,0,0,0" Stretch="Fill" MouseLeftButtonUp="Logo_MouseLeftButtonUp"/>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="186*"/>
+                <ColumnDefinition Width="133*"/>
+            </Grid.ColumnDefinitions>
+            <Image x:Name="Logo" HorizontalAlignment="Left" Height="121" VerticalAlignment="Top" Width="170" Source="../Resources/Logo.png" Margin="50,10,0,0" Stretch="Fill" MouseLeftButtonUp="Logo_MouseLeftButtonUp"/>
             <CheckBox x:Name="CheckForUpdatesOnStartup" Checked="CheckForUpdatesOnStartup_CheckedChanged" Unchecked="CheckForUpdatesOnStartup_CheckedChanged" Content="Verifique se há atualizações automaticamente" HorizontalAlignment="Left" Margin="10,145,0,0" VerticalAlignment="Top" Width="288"/>
             <CheckBox x:Name="RemoveTimestamps" Checked="RemoveTimestamps_CheckedChanged" Unchecked="RemoveTimestamps_CheckedChanged" Content="Remover timestamps" HorizontalAlignment="Left" Margin="10,168,0,0" VerticalAlignment="Top" Width="288"/>
             <Controls:ProgressRing x:Name="UpdateCheckProgress"
@@ -81,17 +85,27 @@
                                    VerticalAlignment="Top"
                                    Visibility="Collapsed" Margin="210,145,0,0"/>
 
-            <Label x:Name="PathLabel" Content="Diretório RAGEMP:" HorizontalContentAlignment="Left" HorizontalAlignment="Left" Margin="298,0,0,0" VerticalAlignment="Top"/>
-            <TextBlock x:Name="Version" TextWrapping="NoWrap" Text="v1.0.0" TextAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="549,5,0,0" Height="26"/>
-            <TextBox x:Name="DirectoryPath" MouseLeftButtonUp="DirectoryPath_MouseLeftButtonUp" TextChanged="DirectoryPath_TextChanged" HorizontalAlignment="Left" Height="23" Margin="303,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="241" IsReadOnly="True" VerticalScrollBarVisibility="Disabled"/>
-            <Button x:Name="Browse" Click="Browse_Click" Content="Procurar" HorizontalAlignment="Left" Margin="549,23,0,0" VerticalAlignment="Top" Width="75"/>
-            <TextBox x:Name="Parsed" TextChanged="Parsed_TextChanged" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Visible" HorizontalAlignment="Left" Height="79" Margin="303,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="321" AcceptsReturn="True"/>
-            <Label x:Name="StatusLabel" Content="Backup Automático: DESLIGADO" HorizontalContentAlignment="Left" HorizontalAlignment="Left" Margin="298,133,0,0" VerticalAlignment="Top" Width="160"/>
-            <TextBlock TextWrapping="NoWrap" x:Name="Counter" Text="0 caracteres e 0 linhas" TextAlignment="Right" HorizontalAlignment="Left" Margin="463,138,0,0" VerticalAlignment="Top" Width="161" Height="26"/>
+            <Label x:Name="PathLabel" Content="Diretório RAGEMP:" HorizontalContentAlignment="Left" HorizontalAlignment="Left" Margin="298,0,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+            <TextBlock x:Name="Version" TextWrapping="NoWrap" Text="v1.0.0" TextAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="177,5,0,0" Height="26" Grid.Column="1"/>
+            <TextBox x:Name="DirectoryPath" MouseLeftButtonUp="DirectoryPath_MouseLeftButtonUp" TextChanged="DirectoryPath_TextChanged" HorizontalAlignment="Left" Height="23" Margin="303,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="241" IsReadOnly="True" VerticalScrollBarVisibility="Disabled" Grid.ColumnSpan="2"/>
+            <Button x:Name="Browse" Click="Browse_Click" Content="Procurar" HorizontalAlignment="Left" Margin="177,23,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1"/>
+            <TextBox x:Name="Parsed" TextChanged="Parsed_TextChanged" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Visible" HorizontalAlignment="Left" Height="79" Margin="303,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="321" AcceptsReturn="True" Grid.ColumnSpan="2"/>
+            <Label x:Name="StatusLabel" Content="Backup auto: DESLIGADO" HorizontalContentAlignment="Left" HorizontalAlignment="Left" Margin="304,133,0,0" VerticalAlignment="Top" Width="160" Grid.ColumnSpan="2"/>
+            <TextBlock TextWrapping="NoWrap" x:Name="Counter" Text="0 caracteres e 0 linhas" TextAlignment="Right" HorizontalAlignment="Left" Margin="91,138,0,0" VerticalAlignment="Top" Width="161" Height="26" Grid.Column="1"/>
 
-            <Button x:Name="Parse" Click="Parse_Click" Content="Analisar" HorizontalAlignment="Left" Margin="303,159,0,0" VerticalAlignment="Top" Width="75"/>
-            <Button x:Name="SaveParsed" Click="SaveParsed_Click" Content="Salvar Como" HorizontalAlignment="Left" Margin="383,159,0,0" VerticalAlignment="Top" Width="75"/>
-            <Button x:Name="CopyParsedToClipboard" Click="CopyParsedToClipboard_Click" Content="Copiar" HorizontalAlignment="Left" Margin="463,159,0,0" VerticalAlignment="Top" Width="161"/>
+            <Button x:Name="Parse" Click="Parse_Click" Content="Analisar" HorizontalAlignment="Left" Margin="304,159,0,0" VerticalAlignment="Top" Width="82" Grid.ColumnSpan="2"/>
+            <Button x:Name="SaveParsed" Click="SaveParsed_Click" Content="Salvar Como" HorizontalAlignment="Left" Margin="40,159,0,0" VerticalAlignment="Top" Width="102" Height="27" Grid.Column="1"/>
+            <Button x:Name="CopyParsedToClipboard" Click="CopyParsedToClipboard_Click" Content="Copiar" HorizontalAlignment="Left" Margin="165,159,0,0" VerticalAlignment="Top" Width="87" Height="27" Grid.Column="1"/>
+            <Label x:Name="Autor" Content="Desenvolvido por: Yuri Braga" HorizontalContentAlignment="Left" HorizontalAlignment="Left" Margin="171,201,0,0" VerticalAlignment="Top" Width="98" RenderTransformOrigin="0.5,0.5" Height="20" FontSize="6" FontWeight="Bold" Grid.Column="1">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleY="0.177"/>
+                        <RotateTransform/>
+                        <TranslateTransform Y="0.247"/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
         </Grid>
     </DockPanel>
 </Controls:MetroWindow>

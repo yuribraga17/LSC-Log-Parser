@@ -21,26 +21,26 @@
     </Controls:MetroWindow.WindowButtonCommands>
 
     <Grid>
-        <Label x:Name="StatusLabel" Content="Log de bate-papo não carregado" FontWeight="DemiBold" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="329" Foreground="Red"/>
+        <Label x:Name="StatusLabel" Content="Chatlog não carregado" FontWeight="DemiBold" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="329" Foreground="Red"/>
         <Label x:Name="TimeLabel" Content="Hora atual: 23:23:23" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="344,10,0,0" VerticalAlignment="Top" Width="140"/>
-        <Button x:Name="LoadUnparsed" Click="LoadUnparsed_Click" Content="Carregar Log de Bate-papo Não Analisado" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="150"/>
-        <Button x:Name="BrowseForParsed" Click="BrowseForParsed_Click" Content="Procurar Log de Bate-papo Analisado" HorizontalAlignment="Left" Margin="165,41,0,0" VerticalAlignment="Top" Width="174"/>
+        <Button x:Name="LoadUnparsed" Click="LoadUnparsed_Click" Content="Carregar chatlog" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="150"/>
+        <Button x:Name="BrowseForParsed" Click="BrowseForParsed_Click" Content="Procurar CHATLOG" HorizontalAlignment="Left" Margin="165,41,0,0" VerticalAlignment="Top" Width="174"/>
         <Button x:Name="FilterModeToggle" Click="FilterModeToggle_Click" Content="Filtro Avançado" HorizontalAlignment="Left" Margin="344,41,0,0" VerticalAlignment="Top" Width="140"/>
         <TextBox x:Name="Filtered" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Visible" HorizontalAlignment="Left" Height="179" Margin="165,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="319" AcceptsReturn="True"/>
 
-        <CheckBox x:Name="IC" Checked="Criterion_CheckedChanged" Unchecked="Criterion_CheckedChanged" Content="Local" HorizontalAlignment="Left" Margin="10,73,0,0" VerticalAlignment="Top" Width="70"/>
+        <CheckBox x:Name="IC" Checked="Criterion_CheckedChanged" Unchecked="Criterion_CheckedChanged" Content="Chat" HorizontalAlignment="Left" Margin="10,73,0,0" VerticalAlignment="Top" Width="70"/>
         <CheckBox x:Name="OOC" Checked="Criterion_CheckedChanged" Unchecked="Criterion_CheckedChanged" Content="OOC" HorizontalAlignment="Left" Margin="90,73,0,0" VerticalAlignment="Top" Width="70"/>
         <CheckBox x:Name="Emote" Checked="Criterion_CheckedChanged" Unchecked="Criterion_CheckedChanged" Content="Emoção" HorizontalAlignment="Left" Margin="10,96,0,0" VerticalAlignment="Top" Width="70"/>
         <CheckBox x:Name="Action" Checked="Criterion_CheckedChanged" Unchecked="Criterion_CheckedChanged" Content="Ação" HorizontalAlignment="Left" Margin="90,96,0,0" VerticalAlignment="Top" Width="70"/>
         <CheckBox x:Name="Radio" Checked="Criterion_CheckedChanged" Unchecked="Criterion_CheckedChanged" Content="Rádio" HorizontalAlignment="Left" Margin="10,119,0,0" VerticalAlignment="Top" Width="70"/>
-        <CheckBox x:Name="PM" Checked="Criterion_CheckedChanged" Unchecked="Criterion_CheckedChanged" Content="Mensagem Privada" HorizontalAlignment="Left" Margin="90,119,0,0" VerticalAlignment="Top" Width="70"/>
+        <CheckBox x:Name="PM" Checked="Criterion_CheckedChanged" Unchecked="Criterion_CheckedChanged" Content="MP" HorizontalAlignment="Left" Margin="90,119,0,0" VerticalAlignment="Top" Width="70"/>
         <CheckBox x:Name="Ads" Checked="Criterion_CheckedChanged" Unchecked="Criterion_CheckedChanged" Content="Anúncios" HorizontalAlignment="Left" Margin="10,142,0,0" VerticalAlignment="Top" Width="150"/>
         <CheckBox x:Name="None1" IsEnabled="False" Visibility="Hidden" Checked="Criterion_CheckedChanged" Unchecked="Criterion_CheckedChanged" Content="Nenhum" HorizontalAlignment="Left" Margin="10,164,0,0" VerticalAlignment="Top" Width="70"/>
         <CheckBox x:Name="None2" IsEnabled="False" Visibility="Hidden" Checked="Criterion_CheckedChanged" Unchecked="Criterion_CheckedChanged" Content="Nenhum" HorizontalAlignment="Left" Margin="90,165,0,0" VerticalAlignment="Top" Width="70"/>
         <CheckBox x:Name="None3" IsEnabled="False" Visibility="Hidden" Checked="Criterion_CheckedChanged" Unchecked="Criterion_CheckedChanged" Content="Nenhum" HorizontalAlignment="Left" Margin="10,187,0,0" VerticalAlignment="Top" Width="70"/>
         <CheckBox x:Name="None4" IsEnabled="False" Visibility="Hidden" Checked="Criterion_CheckedChanged" Unchecked="Criterion_CheckedChanged" Content="Nenhum" HorizontalAlignment="Left" Margin="90,188,0,0" VerticalAlignment="Top" Width="70"/>
 
-        <CheckBox x:Name="Other" Checked="Criterion_CheckedChanged" Unchecked="Criterion_CheckedChanged" Content="Outro (não listado acima)" HorizontalAlignment="Left" Margin="10,211,0,0" VerticalAlignment="Top" Width="150"/>
+        <CheckBox x:Name="Other" Checked="Criterion_CheckedChanged" Unchecked="Criterion_CheckedChanged" Content="Outro (não listado)" HorizontalAlignment="Left" Margin="10,211,0,0" VerticalAlignment="Top" Width="150"/>
         <CheckBox x:Name="RemoveTimestamps" Checked="RemoveTimestamps_CheckedChanged" Unchecked="RemoveTimestamps_CheckedChanged" Content="Remover timestamp" HorizontalAlignment="Left" Margin="10,234,0,0" VerticalAlignment="Top" Width="150"/>
 
         <Button x:Name="SaveFiltered" Click="SaveFiltered_Click" Content="Salvar Como" HorizontalAlignment="Left" Margin="10,257,0,0" VerticalAlignment="Top" Width="150"/>

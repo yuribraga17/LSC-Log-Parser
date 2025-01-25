@@ -291,5 +291,10 @@ namespace Assistant.UI
             SaveSettings();
             _mainWindow.GotKeyboardFocus -= GainFocus;
         }
+
+        private void IgnoreBetaVersions_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
