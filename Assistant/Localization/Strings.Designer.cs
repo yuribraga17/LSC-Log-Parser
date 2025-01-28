@@ -466,7 +466,7 @@ namespace Assistant.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 51.178.79.228_22005.
+        ///   Looks up a localized string similar to 177.54.146.228_22005.
         /// </summary>
         internal static string MainIP {
             get {
@@ -718,7 +718,7 @@ namespace Assistant.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ls-chronicles.com.br_22005.
+        ///   Looks up a localized string similar to 177.54.146.228_22005.
         ///   
         /// </summary>
         internal static string SecondaryIP {
