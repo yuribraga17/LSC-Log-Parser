@@ -785,8 +785,22 @@ namespace Assistant.UI
         /// <param name="e"></param>
         private void OpenGithubProject_Click(object sender, RoutedEventArgs e)
         {
-            Process.Start(Strings.ProjectLink);
+            string githubLink = Strings.ProjectLink;
+
+            if (!string.IsNullOrEmpty(githubLink))
+            {
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = githubLink,
+                    UseShellExecute = true
+                });
+            }
+            else
+            {
+                MessageBox.Show("O link do projeto no GitHub não está configurado.", "Erro", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
+
 
         /// <summary>
         /// Opens the Github Releases page in the default browser
@@ -794,9 +808,22 @@ namespace Assistant.UI
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void OpenGithubReleases_Click(object sender, RoutedEventArgs e)
-        {
-            Process.Start(Strings.ReleasesLink);
-        }
+            {
+                string releasesLink = Strings.ReleasesLink;
+
+                if (!string.IsNullOrEmpty(releasesLink))
+                {
+                    Process.Start(new ProcessStartInfo
+                    {
+                        FileName = releasesLink,
+                        UseShellExecute = true
+                    });
+                }
+                else
+                {
+                    MessageBox.Show("O link das releases no GitHub não está configurado.", "Erro", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+            }
 
         /// <summary>
         /// Opens the UCP in the default browser
@@ -805,7 +832,20 @@ namespace Assistant.UI
         /// <param name="e"></param>
         private void OpenUCP_Click(object sender, RoutedEventArgs e)
         {
-            Process.Start(Strings.UCPLink);
+            string ucpLink = Strings.UCPLink;
+
+            if (!string.IsNullOrEmpty(ucpLink))
+            {
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = ucpLink,
+                    UseShellExecute = true
+                });
+            }
+            else
+            {
+                MessageBox.Show("O link do UCP não está configurado.", "Erro", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
 
         /// <summary>
@@ -815,8 +855,22 @@ namespace Assistant.UI
         /// <param name="e"></param>
         private void OpenFacebrowser_Click(object sender, RoutedEventArgs e)
         {
-            Process.Start(Strings.FacebrowserLink);
+            string facebrowserLink = Strings.FacebrowserLink;
+
+            if (!string.IsNullOrEmpty(facebrowserLink))
+            {
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = facebrowserLink,
+                    UseShellExecute = true
+                });
+            }
+            else
+            {
+                MessageBox.Show("O link do Facebrowser não está configurado.", "Erro", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
+
 
         /// <summary>
         /// Opens the Forums in the default browser
@@ -825,7 +879,20 @@ namespace Assistant.UI
         /// <param name="e"></param>
         private void OpenForums_Click(object sender, RoutedEventArgs e)
         {
-            Process.Start(Strings.ForumsLink);
+            string forumsLink = Strings.ForumsLink;
+
+            if (!string.IsNullOrEmpty(forumsLink))
+            {
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = forumsLink,
+                    UseShellExecute = true
+                });
+            }
+            else
+            {
+                MessageBox.Show("O link do fórum não está configurado.", "Erro", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
     }
 }

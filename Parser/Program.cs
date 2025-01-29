@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Linq;
 using System.Threading;
+using System.Windows.Forms;
+using System.Drawing; // Necessário para manipular ícones
+using System.IO;
 using Parser.Controllers;
 using Parser.Localization;
-using System.Windows.Forms;
 
 namespace Parser
 {
@@ -17,14 +19,12 @@ namespace Parser
         [STAThread]
         private static void Main()
         {
-            // Get the command line arguments and check
-            // if the current session is a restart
+            // Verifica argumentos de linha de comando
             string[] args = Environment.GetCommandLineArgs();
             if (args.Any(arg => arg == $"{ProgramController.ParameterPrefix}restart"))
                 isRestarted = true;
 
-            // Make sure only one instance is running
-            // if the application is not currently restarting
+            // Garante que apenas uma instância está rodando
             Mutex mutex = new Mutex(true, "LSCParserMini", out bool isUnique);
             if (!isUnique && !isRestarted)
             {
@@ -32,20 +32,41 @@ namespace Parser
                 return;
             }
 
-            // Initialize the controllers and
-            // display the main user form
+            // Configura visual e compatibilidade de renderização
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
+            // Atualiza configurações na primeira inicialização
             if (Properties.Settings.Default.FirstStart)
                 Properties.Settings.Default.Upgrade();
 
+            // Inicializa localizações e configurações do servidor
             LocalizationController.InitializeLocale();
             ProgramController.InitializeServerIp();
-            Application.Run(new UI.Main());
 
-            // Don't let the garbage
-            // collector touch the Mutex
+            // Cria a janela principal e define o ícone
+            UI.Main mainForm = new UI.Main();
+            try
+            {
+                string iconPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "AppIcon.ico");
+                if (File.Exists(iconPath))
+                {
+                    mainForm.Icon = new Icon(iconPath);
+                }
+                else
+                {
+                    MessageBox.Show($"Erro: Ícone não encontrado em {iconPath}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erro ao carregar ícone: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            // Executa o aplicativo
+            Application.Run(mainForm);
+
+            // Mantém a referência do Mutex viva
             GC.KeepAlive(mutex);
         }
     }

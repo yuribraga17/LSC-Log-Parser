@@ -117,10 +117,296 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="About" xml:space="preserve">
+    <value>Assistente de registro de chatlog para o LSC.
+
+Versão instalada: {0} {1}
+Diretório de recursos: {2}</value>
+  </data>
+  <data name="AdvancedFilter" xml:space="preserve">
+    <value>Filtro avançado</value>
+  </data>
+  <data name="AlreadyExistingDirectoriesWarning" xml:space="preserve">
+    <value>porque os diretórios "{0}" já existem.</value>
+  </data>
+  <data name="AutoStartDisableError" xml:space="preserve">
+    <value>Ocorreu um erro ao tentar desabilitar a função de inicialização automática.</value>
+  </data>
+  <data name="AutoStartEnableError" xml:space="preserve">
+    <value>Ocorreu um erro ao tentar habilitar a função de inicialização automática.</value>
+  </data>
+  <data name="AutoStartWarning" xml:space="preserve">
+    <value>Este recurso deixará de funcionar se você excluir ou mover o analisador para um local diferente.</value>
+  </data>
+  <data name="BackupError" xml:space="preserve">
+    <value>Ocorreu um erro ao tentar salvar automaticamente o log de bate-papo.
+
+Certifique-se de ter escolhido um diretório não-sistema para seu caminho de backup.</value>
+  </data>
+  <data name="BackupMoveError" xml:space="preserve">
+    <value>Ocorreu um erro ao mover os arquivos de backup para o novo diretório.</value>
+  </data>
+  <data name="BackupStatus" xml:space="preserve">
+    <value>Backup auto: {0}</value>
+  </data>
+  <data name="BackupTurnedOff" xml:space="preserve">
+    <value>O backup automático foi DESLIGADO. Configure-o novamente se desejar usá-lo.</value>
+  </data>
+  <data name="BackupWillBeOff" xml:space="preserve">
+    <value>A função de backup automático será desligada enquanto o diálogo de configurações estiver aberto e as novas configurações serão aplicadas somente quando você fechar o diálogo de configurações.
+
+Gostaria de continuar?</value>
+  </data>
+  <data name="BadBackupPath" xml:space="preserve">
+    <value>Selecione um diretório que não seja raiz para o local do seu diretório de backup.</value>
+  </data>
+  <data name="BadBackupPathSave" xml:space="preserve">
+    <value>Escolha um local de backup válido ou desative o backup automático.</value>
+  </data>
+  <data name="BadDirectoryPath" xml:space="preserve">
+    <value>Selecione um diretório não raiz para o local do seu diretório RAGEMP.</value>
+  </data>
+  <data name="Beta" xml:space="preserve">
+    <value>Beta</value>
+  </data>
+  <data name="BetaShort" xml:space="preserve">
+    <value>b</value>
+  </data>
+  <data name="CharacterCounter" xml:space="preserve">
+    <value>{0} caracteres e {1} linhas</value>
+  </data>
+  <data name="CurrentTime" xml:space="preserve">
+    <value>Hora atual: {0}</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>ERRO</value>
+  </data>
+  <data name="FacebrowserLink" xml:space="preserve">
+    <value>https://snapmatic.flextor.com.br</value>
+  </data>
+  <data name="FeatureShowcaseLink" xml:space="preserve">
+    <value>https://ls-chronicles.com.br/forum/index.php?/topic/776-guia-usando-o-chatlog-e-seus-comandos</value>
+  </data>
+  <data name="FileDeleteError" xml:space="preserve">
+    <value>Ocorreu um erro ao tentar excluir o arquivo.</value>
+  </data>
+  <data name="FilterHint" xml:space="preserve">
+    <value>Você pode ter apenas uma palavra, número ou par de nomes válidos em cada linha se quiser filtrar seu log de bate-papo.
+Exemplo: Barco, $500, John, John Doe ou John_Doe</value>
+  </data>
+  <data name="FilterHintNoMatches" xml:space="preserve">
+    <value>Nenhuma correspondência encontrada.
+
+Certifique-se de ter apenas uma palavra, número ou par de nomes válidos em cada linha.
+Exemplo: Barco, $500, John, John Doe ou John_Doe</value>
+  </data>
+  <data name="FilterHintSkipped" xml:space="preserve">
+    <value>Uma ou mais palavras foram ignoradas durante a operação de filtragem porque não estão em um formato válido.
+
+Certifique-se de ter apenas uma palavra, número ou par de nomes válidos em cada linha.
+Exemplo: Boat, $500, John, John Doe ou John_Doe</value>
+  </data>
+  <data name="FilterLogStatus" xml:space="preserve">
+    <value>Chat log{0} carregado{1}</value>
+  </data>
+  <data name="FilterReadError" xml:space="preserve">
+    <value>Ocorreu um erro ao ler o arquivo selecionado.</value>
+  </data>
+  <data name="DirectoryFinder" xml:space="preserve">
+    <value>Seu diretório RAGEMP foi encontrado automaticamente em {0}
+
+Por favor, procure o caminho correto manualmente se estiver incorreto ou se você tiver várias instalações RAGEMP.</value>
+  </data>
+  <data name="DirectoryFinderError" xml:space="preserve">
+    <value>Ocorreu um erro ao tentar encontrar automaticamente o local do seu diretório RAGEMP. Procure-o manualmente.</value>
+  </data>
+  <data name="DirectoryFinderNotFound" xml:space="preserve">
+    <value>Não foi possível detectar o caminho para o seu diretório RAGEMP, procure-o manualmente.</value>
+  </data>
+  <data name="DirectoryFinderTitle" xml:space="preserve">
+    <value>Informações (Primeira vez)</value>
+  </data>
+  <data name="ForumsLink" xml:space="preserve">
+    <value>https://ls-chronicles.com.br/forum</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Informação</value>
+  </data>
+  <data name="IntervalHint" xml:space="preserve">
+    <value>Faça backup do registro de bate-papo automaticamente enquanto o jogo estiver em execução (a cada {0} {1})</value>
+  </data>
+  <data name="IntervalRecommended" xml:space="preserve">
+    <value>{0}. (recomendado)</value>
+  </data>
+  <data name="InvalidDirectoryPath" xml:space="preserve">
+    <value>Caminho do diretório RAGEMP inválido.</value>
+  </data>
+  <data name="InvalidDirectoryPathBackup" xml:space="preserve">
+    <value>Escolha um local de diretório RAGEMP válido antes de tentar habilitar o backup automático.</value>
+  </data>
+  <data name="InvalidDirectoryPathFilter" xml:space="preserve">
+    <value>Escolha um local válido no diretório RAGEMP antes de tentar filtrar seu registro de bate-papo.</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="LanguageInfo" xml:space="preserve">
+    <value>O idioma escolhido será usado para extrair o log de bate-papo do servidor correto.
+
+Isso significa que se você escolher inglês, você só poderá analisar o log de bate-papo gerado do servidor em inglês. Você precisará alterar o idioma do aplicativo se desejar analisar outros logs de bate-papo.</value>
+  </data>
+  <data name="LoadedAt" xml:space="preserve">
+    <value>em {0}</value>
+  </data>
   <data name="MainIP" xml:space="preserve">
-    <value>177.54.146.228_22008</value>
+    <value>177.54.146.228_22005</value>
+  </data>
+  <data name="MinimizeInsteadOfClose" xml:space="preserve">
+    <value>Fechar o parser impedirá que os backups automáticos aconteçam.
+
+Você gostaria de minimizar o parser para a bandeja do sistema?</value>
+  </data>
+  <data name="MinutePlural" xml:space="preserve">
+    <value>Minutos</value>
+  </data>
+  <data name="MinuteSingular" xml:space="preserve">
+    <value>Minuto</value>
+  </data>
+  <data name="MoveBackups" xml:space="preserve">
+    <value>Gostaria de mover todos os seus arquivos de backup existentes para o novo diretório?</value>
+  </data>
+  <data name="MultipleChatLogs" xml:space="preserve">
+    <value>Vários diretórios de recursos LSC foram encontrados. É aconselhável que você use um único IP para se conectar ao servidor e exclua o outro diretório de recursos.
+
+Mantenha "{0}" ou "{1}".</value>
+  </data>
+  <data name="Negation" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="NoChatLog" xml:space="preserve">
+    <value>Não é possível encontrar o registro de chatlog.</value>
+  </data>
+  <data name="NoChatLogLoaded" xml:space="preserve">
+    <value>Você ainda não carregou um registro de chatlog.</value>
+  </data>
+  <data name="NoInternet" xml:space="preserve">
+    <value>Nenhuma atualização pôde ser encontrada.
+Tente verificar sua conexão de internet ou aumentar o tempo limite de verificação de atualização na janela de configurações.
+
+Versão instalada: {0}</value>
+  </data>
+  <data name="NothingFiltered" xml:space="preserve">
+    <value>Você ainda não filtrou nada.</value>
+  </data>
+  <data name="NothingMovedWarning" xml:space="preserve">
+    <value>Não moveu nenhum diretório para o novo local</value>
+  </data>
+  <data name="NothingParsed" xml:space="preserve">
+    <value>Você ainda não analisou nada.</value>
+  </data>
+  <data name="NoWordsToFilter" xml:space="preserve">
+    <value>Você não inseriu nenhuma palavra para filtrar.
+
+Use o filtro simples se não quiser filtrar por palavras.</value>
+  </data>
+  <data name="OldChatLog" xml:space="preserve">
+    <value>Um formato antigo foi detectado ao analisar o log de bate-papo e é aconselhável que você o exclua e todos os outros scripts que não foram atualizados corretamente.
+
+Você gostaria de excluir esses arquivos?
+(O arquivo de chatlog será analisado antes da exclusão)</value>
+  </data>
+  <data name="OpenDocumentation" xml:space="preserve">
+    <value>Gostaria de abrir a página de documentação do analisador de log de bate-papo encontrado nos fóruns do LSC?</value>
+  </data>
+  <data name="OtherInstanceRunning" xml:space="preserve">
+    <value>Outra instância já está em execução, verifique sua barra de tarefas ou gerenciador de tarefas.</value>
+  </data>
+  <data name="ParseError" xml:space="preserve">
+    <value>Ocorreu um erro ao analisar o registro do chatlog.</value>
+  </data>
+  <data name="PartialMoveWarning" xml:space="preserve">
+    <value>Apenas os diretórios "{0}" foram movidos para o novo local</value>
+  </data>
+  <data name="ProjectLink" xml:space="preserve">
+    <value>https://github.com/yuribraga17/LSC-Log-Parser</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Questão</value>
+  </data>
+  <data name="ReleasesLink" xml:space="preserve">
+    <value>https://github.com/yuribraga17/LSC-Log-Parser/releases</value>
+  </data>
+  <data name="Restart" xml:space="preserve">
+    <value>Reiniciar</value>
+  </data>
+  <data name="RunningLatest" xml:space="preserve">
+    <value>Você está executando a versão mais recente do analisador de log de bate-papo.
+
+Versão instalada: {0}</value>
+  </data>
+  <data name="SameHashWarning" xml:space="preserve">
+    <value>O mesmo log de bate-papo foi copiado {0} ou mais vezes, o que significa que o script do cliente RAGEMP responsável por registrar seu bate-papo está quebrado.
+
+Isso acontece quando você perde a conexão com a internet ou o servidor trava. A única maneira conhecida de corrigir o problema é excluindo os diretórios de recursos do servidor em que você está jogando.
+
+Os logs de bate-papo perdidos não podem ser recuperados.</value>
+  </data>
+  <data name="SaveError" xml:space="preserve">
+    <value>Ocorreu um erro ao tentar salvar o arquivo.</value>
   </data>
   <data name="SecondaryIP" xml:space="preserve">
-    <value>177.54.146.228:22008</value>
+    <value>177.54.146.228_22005</value>
+  </data>
+  <data name="SecondPlural" xml:space="preserve">
+    <value>segundos</value>
+  </data>
+  <data name="SecondSingular" xml:space="preserve">
+    <value>segundo</value>
+  </data>
+  <data name="SettingsAfterClose" xml:space="preserve">
+    <value>As configurações só serão aplicadas quando você fechar a caixa de diálogo de configurações.</value>
+  </data>
+  <data name="SimpleFilter" xml:space="preserve">
+    <value>Filtro simples</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Iniciar</value>
+  </data>
+  <data name="SuccessfulBackup" xml:space="preserve">
+    <value>Chatlog analisado e copiado com sucesso para {0}</value>
+  </data>
+  <data name="SwitchServer" xml:space="preserve">
+    <value>O parser precisa reiniciar para alternar para o servidor selecionado.
+
+Você gostaria de aplicar as alterações e reiniciar o aplicativo agora?</value>
+  </data>
+  <data name="UCPLink" xml:space="preserve">
+    <value>https://ucp.ls-chronicles.com.br</value>
+  </data>
+  <data name="UpdateAbortTime" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="UpdateAvailable" xml:space="preserve">
+    <value>Uma nova versão do analisador de log de bate-papo está disponível no GitHub.
+
+Versão instalada: {0}
+Versão disponível: {1}
+
+Você gostaria de visitar a página de lançamentos agora?</value>
+  </data>
+  <data name="UpdateAvailableTitle" xml:space="preserve">
+    <value>Atualização disponível</value>
+  </data>
+  <data name="VersionInfo" xml:space="preserve">
+    <value>{0}{1}</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Aviso</value>
   </data>
 </root>

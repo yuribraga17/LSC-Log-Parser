@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="About" xml:space="preserve">
-    <value>Assistente de chat log do LSC.
+    <value>Assistente de registro de chatlog para o LSC.
 
 Versão instalada: {0} {1}
 Diretório de recursos: {2}</value>
@@ -127,44 +127,44 @@ Diretório de recursos: {2}</value>
     <value>Filtro avançado</value>
   </data>
   <data name="AlreadyExistingDirectoriesWarning" xml:space="preserve">
-    <value> Porque o "{0}" Os diretórios já existem.</value>
+    <value>porque os diretórios "{0}" já existem.</value>
   </data>
   <data name="AutoStartDisableError" xml:space="preserve">
-    <value>Ocorreu um erro ao tentar desativar a função de inicialização automática.</value>
+    <value>Ocorreu um erro ao tentar desabilitar a função de inicialização automática.</value>
   </data>
   <data name="AutoStartEnableError" xml:space="preserve">
-    <value>Ocorreu um erro ao tentar ativar a função de inicialização automática.</value>
+    <value>Ocorreu um erro ao tentar habilitar a função de inicialização automática.</value>
   </data>
   <data name="AutoStartWarning" xml:space="preserve">
-    <value>Esse recurso parará de funcionar se você excluir ou mover o analisador para um local diferente.</value>
+    <value>Este recurso deixará de funcionar se você excluir ou mover o analisador para um local diferente.</value>
   </data>
   <data name="BackupError" xml:space="preserve">
-    <value> Ocorreu um erro ao tentar salvar automaticamente o log de bate -papo.
+    <value>Ocorreu um erro ao tentar salvar automaticamente o log de bate-papo.
 
-Certifique-se de escolher um diretório não-sistema para o seu caminho de backup.</value>
+Certifique-se de ter escolhido um diretório não-sistema para seu caminho de backup.</value>
   </data>
   <data name="BackupMoveError" xml:space="preserve">
-    <value>Um erro ocorreu ao mover os arquivos de backup para o novo diretório.</value>
+    <value>Ocorreu um erro ao mover os arquivos de backup para o novo diretório.</value>
   </data>
   <data name="BackupStatus" xml:space="preserve">
-    <value>Backup automático: {0}</value>
+    <value>Backup auto: {0}</value>
   </data>
   <data name="BackupTurnedOff" xml:space="preserve">
-    <value>O backup automático foi desligado, configure -o novamente se desejar usá -lo.</value>
+    <value>O backup automático foi DESLIGADO. Configure-o novamente se desejar usá-lo.</value>
   </data>
   <data name="BackupWillBeOff" xml:space="preserve">
-    <value>A função de backup automática será desligada enquanto a caixa de diálogo Configurações estiver aberta e as novas configurações serão aplicadas apenas quando você fechar a caixa de diálogo Configurações.
+    <value>A função de backup automático será desligada enquanto o diálogo de configurações estiver aberto e as novas configurações serão aplicadas somente quando você fechar o diálogo de configurações.
 
-Você gostaria de continuar?</value>
+Gostaria de continuar?</value>
   </data>
   <data name="BadBackupPath" xml:space="preserve">
-    <value>Escolha um diretório sem raios para o seu local de diretório de backup.</value>
+    <value>Selecione um diretório que não seja raiz para o local do seu diretório de backup.</value>
   </data>
   <data name="BadBackupPathSave" xml:space="preserve">
     <value>Escolha um local de backup válido ou desative o backup automático.</value>
   </data>
   <data name="BadDirectoryPath" xml:space="preserve">
-    <value>Escolha um diretório sem raios para o seu local de diretório RAGEMP.</value>
+    <value>Selecione um diretório não raiz para o local do seu diretório RAGEMP.</value>
   </data>
   <data name="Beta" xml:space="preserve">
     <value>Beta</value>
@@ -173,10 +173,10 @@ Você gostaria de continuar?</value>
     <value>b</value>
   </data>
   <data name="CharacterCounter" xml:space="preserve">
-    <value>{0} personagens e {1} linhas</value>
+    <value>{0} caracteres e {1} linhas</value>
   </data>
   <data name="CurrentTime" xml:space="preserve">
-    <value>Horário atual: {0}</value>
+    <value>Hora atual: {0}</value>
   </data>
   <data name="Disabled" xml:space="preserve">
     <value>OFF</value>
@@ -185,119 +185,119 @@ Você gostaria de continuar?</value>
     <value>ON</value>
   </data>
   <data name="Error" xml:space="preserve">
-    <value>Erro</value>
+    <value>ERRO</value>
   </data>
   <data name="FacebrowserLink" xml:space="preserve">
     <value>https://snapmatic.flextor.com.br</value>
   </data>
   <data name="FeatureShowcaseLink" xml:space="preserve">
-    <value>https://ls-chronicles.com.br/forum/</value>
+    <value>https://ls-chronicles.com.br/forum/index.php?/topic/776-guia-usando-o-chatlog-e-seus-comandos</value>
   </data>
   <data name="FileDeleteError" xml:space="preserve">
     <value>Ocorreu um erro ao tentar excluir o arquivo.</value>
   </data>
   <data name="FilterHint" xml:space="preserve">
-    <value>Você pode ter apenas uma palavra, número ou par de nomes válidos em cada linha, se desejar filtrar seu log de bate -papo.
+    <value>Você pode ter apenas uma palavra, número ou par de nomes válidos em cada linha se quiser filtrar seu log de bate-papo.
 Exemplo: Barco, $500, John, John Doe ou John_Doe</value>
   </data>
   <data name="FilterHintNoMatches" xml:space="preserve">
-    <value>No matches found.
+    <value>Nenhuma correspondência encontrada.
 
-Certifique -se de ter apenas uma palavra, número ou par de nomes válidos em cada linha.
+Certifique-se de ter apenas uma palavra, número ou par de nomes válidos em cada linha.
 Exemplo: Barco, $500, John, John Doe ou John_Doe</value>
   </data>
   <data name="FilterHintSkipped" xml:space="preserve">
     <value>Uma ou mais palavras foram ignoradas durante a operação de filtragem porque não estão em um formato válido.
 
-Certifique -se de ter apenas uma palavra, número ou par de nomes válidos em cada linha.
-Exemplo: Barco, $500, John, John Doe ou John_Doe</value>
+Certifique-se de ter apenas uma palavra, número ou par de nomes válidos em cada linha.
+Exemplo: Boat, $500, John, John Doe ou John_Doe</value>
   </data>
   <data name="FilterLogStatus" xml:space="preserve">
-    <value>Chat log{0} loaded{1}</value>
+    <value>Chat log{0} carregado{1}</value>
   </data>
   <data name="FilterReadError" xml:space="preserve">
     <value>Ocorreu um erro ao ler o arquivo selecionado.</value>
   </data>
   <data name="DirectoryFinder" xml:space="preserve">
-    <value>Encontrou automaticamente seu diretório RAGEMP em {0}
+    <value>Seu diretório RAGEMP foi encontrado automaticamente em {0}
 
-Procure o caminho correto manualmente se estiver incorreto ou você tiver várias instalações RAGEMP.</value>
+Por favor, procure o caminho correto manualmente se estiver incorreto ou se você tiver várias instalações RAGEMP.</value>
   </data>
   <data name="DirectoryFinderError" xml:space="preserve">
-    <value>Ocorreu um erro ao tentar encontrar automaticamente a localização do seu diretório RAGEMP, procure manualmente.</value>
+    <value>Ocorreu um erro ao tentar encontrar automaticamente o local do seu diretório RAGEMP. Procure-o manualmente.</value>
   </data>
   <data name="DirectoryFinderNotFound" xml:space="preserve">
-    <value>Não foi possível detectar o caminho para o seu diretório RAGEMP, procure manualmente.</value>
+    <value>Não foi possível detectar o caminho para o seu diretório RAGEMP, procure-o manualmente.</value>
   </data>
   <data name="DirectoryFinderTitle" xml:space="preserve">
-    <value>Informação (Primeiro começo)</value>
+    <value>Informações (Primeira vez)</value>
   </data>
   <data name="ForumsLink" xml:space="preserve">
-    <value>https://ls-chronicles.com.br/forum/</value>
+    <value>https://ls-chronicles.com.br/forum</value>
   </data>
   <data name="Information" xml:space="preserve">
     <value>Informação</value>
   </data>
   <data name="IntervalHint" xml:space="preserve">
-    <value>Faça backup do log de bate -papo automaticamente enquanto o jogo está sendo executado (toda {0} {1})</value>
+    <value>Faça backup do registro de bate-papo automaticamente enquanto o jogo estiver em execução (a cada {0} {1})</value>
   </data>
   <data name="IntervalRecommended" xml:space="preserve">
-    <value>{0}. (recomendada)</value>
+    <value>{0}. (recomendado)</value>
   </data>
   <data name="InvalidDirectoryPath" xml:space="preserve">
-    <value>Caminho de diretório RAGEMP inválido.</value>
+    <value>Caminho do diretório RAGEMP inválido.</value>
   </data>
   <data name="InvalidDirectoryPathBackup" xml:space="preserve">
-    <value>Escolha um local de diretório RAGEMP válido antes de tentar ativar o backup automático.</value>
+    <value>Escolha um local de diretório RAGEMP válido antes de tentar habilitar o backup automático.</value>
   </data>
   <data name="InvalidDirectoryPathFilter" xml:space="preserve">
-    <value>Escolha um local de diretório RAGEMP válido antes de tentar filtrar seu log de bate -papo.</value>
+    <value>Escolha um local válido no diretório RAGEMP antes de tentar filtrar seu registro de bate-papo.</value>
   </data>
   <data name="Language" xml:space="preserve">
-    <value>Linguagem</value>
+    <value>Idioma</value>
   </data>
   <data name="LanguageInfo" xml:space="preserve">
-    <value>O idioma escolhido será usado para extrair o log de bate -papo do servidor correto.
+    <value>O idioma escolhido será usado para extrair o log de bate-papo do servidor correto.
 
-Isso significa que, se você escolher o inglês, só poderá analisar o log de bate -papo gerado no servidor inglês.Você precisará alterar o idioma do aplicativo se desejar analisar outros logs de bate -papo.</value>
+Isso significa que se você escolher inglês, você só poderá analisar o log de bate-papo gerado do servidor em inglês. Você precisará alterar o idioma do aplicativo se desejar analisar outros logs de bate-papo.</value>
   </data>
   <data name="LoadedAt" xml:space="preserve">
-    <value> at {0}</value>
+    <value>em {0}</value>
   </data>
   <data name="MainIP" xml:space="preserve">
     <value>177.54.146.228_22005</value>
   </data>
   <data name="MinimizeInsteadOfClose" xml:space="preserve">
-    <value>Fechar o analisador impedirá que os backups automáticos aconteçam.
+    <value>Fechar o parser impedirá que os backups automáticos aconteçam.
 
-Você gostaria de minimizar o analisador para a bandeja do sistema?</value>
+Você gostaria de minimizar o parser para a bandeja do sistema?</value>
   </data>
   <data name="MinutePlural" xml:space="preserve">
-    <value>minutos</value>
+    <value>Minutos</value>
   </data>
   <data name="MinuteSingular" xml:space="preserve">
-    <value>minuto</value>
+    <value>Minuto</value>
   </data>
   <data name="MoveBackups" xml:space="preserve">
-    <value>Você gostaria de mover todos os seus arquivos de backup existentes para o novo diretório?</value>
+    <value>Gostaria de mover todos os seus arquivos de backup existentes para o novo diretório?</value>
   </data>
   <data name="MultipleChatLogs" xml:space="preserve">
-    <value>Vários diretórios de recursos LSC foram encontrados.É recomendável que você use um único IP para conectar -se ao servidor e excluir o outro diretório de recursos.
+    <value>Vários diretórios de recursos LSC foram encontrados. É aconselhável que você use um único IP para se conectar ao servidor e exclua o outro diretório de recursos.
 
-Mantenha-se "{0}" ou "{1}".</value>
+Mantenha "{0}" ou "{1}".</value>
   </data>
   <data name="Negation" xml:space="preserve">
-    <value> não</value>
+    <value>Não</value>
   </data>
   <data name="NoChatLog" xml:space="preserve">
-    <value>Não consigo encontrar o LSC chat log.</value>
+    <value>Não é possível encontrar o registro de chatlog.</value>
   </data>
   <data name="NoChatLogLoaded" xml:space="preserve">
-    <value>Você ainda não carregou um log de bate -papo.</value>
+    <value>Você ainda não carregou um registro de chatlog.</value>
   </data>
   <data name="NoInternet" xml:space="preserve">
-    <value>Nenhuma atualização foi encontrada.
-Tente verificar sua conexão com a Internet ou aumentar o tempo limite de verificação de atualização na janela Configurações.
+    <value>Nenhuma atualização pôde ser encontrada.
+Tente verificar sua conexão de internet ou aumentar o tempo limite de verificação de atualização na janela de configurações.
 
 Versão instalada: {0}</value>
   </data>
@@ -313,31 +313,31 @@ Versão instalada: {0}</value>
   <data name="NoWordsToFilter" xml:space="preserve">
     <value>Você não inseriu nenhuma palavra para filtrar.
 
-Use o filtro simples se você não deseja filtrar para palavras.</value>
+Use o filtro simples se não quiser filtrar por palavras.</value>
   </data>
   <data name="OldChatLog" xml:space="preserve">
-    <value>Um formato antigo foi detectado enquanto analisava o log de bate -papo e é aconselhável que você o exclua e todos os outros scripts que não se atualizam correcamente.
+    <value>Um formato antigo foi detectado ao analisar o log de bate-papo e é aconselhável que você o exclua e todos os outros scripts que não foram atualizados corretamente.
 
 Você gostaria de excluir esses arquivos?
-(O arquivo de log de bate -papo será analisado antes da exclusão)</value>
+(O arquivo de chatlog será analisado antes da exclusão)</value>
   </data>
   <data name="OpenDocumentation" xml:space="preserve">
-    <value>Gostaria de abrir a página de documentação para o analisador de log de bate -papo encontrado nos fóruns do LSC?</value>
+    <value>Gostaria de abrir a página de documentação do analisador de log de bate-papo encontrado nos fóruns do LSC?</value>
   </data>
   <data name="OtherInstanceRunning" xml:space="preserve">
     <value>Outra instância já está em execução, verifique sua barra de tarefas ou gerenciador de tarefas.</value>
   </data>
   <data name="ParseError" xml:space="preserve">
-    <value>Ocorreu um erro ao analisar o log de bate -papo.</value>
+    <value>Ocorreu um erro ao analisar o registro do chatlog.</value>
   </data>
   <data name="PartialMoveWarning" xml:space="preserve">
-    <value>Apenas moveu o "{0}" diretórios para o novo local</value>
+    <value>Apenas os diretórios "{0}" foram movidos para o novo local</value>
   </data>
   <data name="ProjectLink" xml:space="preserve">
     <value>https://github.com/yuribraga17/LSC-Log-Parser</value>
   </data>
   <data name="Question" xml:space="preserve">
-    <value>Pergunta</value>
+    <value>Questão</value>
   </data>
   <data name="ReleasesLink" xml:space="preserve">
     <value>https://github.com/yuribraga17/LSC-Log-Parser/releases</value>
@@ -346,16 +346,16 @@ Você gostaria de excluir esses arquivos?
     <value>Reiniciar</value>
   </data>
   <data name="RunningLatest" xml:space="preserve">
-    <value>Você está executando a versão mais recente do analisador de log de bate -papo.
+    <value>Você está executando a versão mais recente do analisador de log de bate-papo.
 
 Versão instalada: {0}</value>
   </data>
   <data name="SameHashWarning" xml:space="preserve">
-    <value>O mesmo registro de bate -papo foi backup {0} Ou mais vezes, o que significa que o script do cliente RAGEMP responsável pelo registro do seu bate -papo está quebrado.
+    <value>O mesmo log de bate-papo foi copiado {0} ou mais vezes, o que significa que o script do cliente RAGEMP responsável por registrar seu bate-papo está quebrado.
 
-Isso acontece quando você perde a conexão com a Internet ou o servidor trava.A única maneira conhecida de corrigir o problema é excluir os diretórios de recursos para o servidor em que você está sendo reproduzido.
+Isso acontece quando você perde a conexão com a internet ou o servidor trava. A única maneira conhecida de corrigir o problema é excluindo os diretórios de recursos do servidor em que você está jogando.
 
-Os logs de bate -papo perdidos não podem ser recuperados.</value>
+Os logs de bate-papo perdidos não podem ser recuperados.</value>
   </data>
   <data name="SaveError" xml:space="preserve">
     <value>Ocorreu um erro ao tentar salvar o arquivo.</value>
@@ -370,19 +370,19 @@ Os logs de bate -papo perdidos não podem ser recuperados.</value>
     <value>segundo</value>
   </data>
   <data name="SettingsAfterClose" xml:space="preserve">
-    <value>As configurações serão aplicadas apenas quando você fechar a caixa de diálogo Configurações.</value>
+    <value>As configurações só serão aplicadas quando você fechar a caixa de diálogo de configurações.</value>
   </data>
   <data name="SimpleFilter" xml:space="preserve">
     <value>Filtro simples</value>
   </data>
   <data name="Start" xml:space="preserve">
-    <value>Começar</value>
+    <value>Iniciar</value>
   </data>
   <data name="SuccessfulBackup" xml:space="preserve">
-    <value>Com sucesso analisado e backup de log de bate -papo para {0}</value>
+    <value>Chatlog analisado e copiado com sucesso para {0}</value>
   </data>
   <data name="SwitchServer" xml:space="preserve">
-    <value>O analisador precisa reiniciar para mudar para o servidor selecionado.
+    <value>O parser precisa reiniciar para alternar para o servidor selecionado.
 
 Você gostaria de aplicar as alterações e reiniciar o aplicativo agora?</value>
   </data>
@@ -393,7 +393,7 @@ Você gostaria de aplicar as alterações e reiniciar o aplicativo agora?</value
     <value>{0}.</value>
   </data>
   <data name="UpdateAvailable" xml:space="preserve">
-    <value>Uma nova versão do analisador de log de bate -papo está agora disponível no GitHub.
+    <value>Uma nova versão do analisador de log de bate-papo está disponível no GitHub.
 
 Versão instalada: {0}
 Versão disponível: {1}

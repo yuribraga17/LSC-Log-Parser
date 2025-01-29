@@ -61,7 +61,7 @@
     -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
-    <xsd:element name="root" msdata:IsContinuityControllerSet="true">
+    <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
@@ -117,10 +117,62 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="About" xml:space="preserve">
+    <value>Registrador de chatlog para o LSC.
+
+Versão instalada: {0} {1}
+Diretório de recursos: {2}</value>
+  </data>
+  <data name="BadDirectoryPath" xml:space="preserve">
+    <value>Escolha um diretório sem raios para o seu local de diretório RAGEMP.</value>
+  </data>
+  <data name="Beta" xml:space="preserve">
+    <value>Beta</value>
+  </data>
+  <data name="BetaShort" xml:space="preserve">
+    <value>b</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Informação</value>
+  </data>
+  <data name="InvalidDirectoryPath" xml:space="preserve">
+    <value>Caminho de diretório RAGEMP inválido.</value>
+  </data>
   <data name="MainIP" xml:space="preserve">
     <value>177.54.146.228_22008</value>
   </data>
+  <data name="NoChatLog" xml:space="preserve">
+    <value>Não consigo encontrar o log do LSC Chat Log.</value>
+  </data>
+  <data name="OtherInstanceRunning" xml:space="preserve">
+    <value>Outra instância já está em execução, verifique sua barra de tarefas ou gerenciador de tarefas.</value>
+  </data>
+  <data name="ParseError" xml:space="preserve">
+    <value>Ocorreu um erro ao analisar o log de bate -papo.</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Pergunta</value>
+  </data>
+  <data name="Restart" xml:space="preserve">
+    <value>Reiniciar</value>
+  </data>
+  <data name="SaveError" xml:space="preserve">
+    <value>Ocorreu um erro ao tentar salvar o arquivo.</value>
+  </data>
   <data name="SecondaryIP" xml:space="preserve">
-    <value>177.54.146.228:22008</value>
+    <value>177.54.146.228_22008</value>
+  </data>
+  <data name="SwitchServer" xml:space="preserve">
+    <value>O analisador precisa reiniciar para mudar para o servidor.
+Você gostaria de aplicar as alterações e reiniciar o aplicativo agora?</value>
+  </data>
+  <data name="VersionInfo" xml:space="preserve">
+    <value>{0}{1}</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Aviso</value>
   </data>
 </root>
