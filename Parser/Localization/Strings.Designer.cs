@@ -188,9 +188,9 @@ namespace Parser.Localization {
                 return ResourceManager.GetString("SaveError", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to 177.54.146.228_22005.
+        ///   Looks up a localized string similar to game.ls-chronicles.com.br_22005.
         /// </summary>
         internal static string SecondaryIP {
             get {

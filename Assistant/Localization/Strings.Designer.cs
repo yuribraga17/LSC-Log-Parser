@@ -464,9 +464,9 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("LoadedAt", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a 177.54.146.228_22005.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a 80.75.221.45_22005.
         /// </summary>
         internal static string MainIP {
             get {
@@ -716,9 +716,9 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("SaveError", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a 177.54.146.228_22005.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a 80.75.221.45_22005.
         /// </summary>
         internal static string SecondaryIP {
             get {

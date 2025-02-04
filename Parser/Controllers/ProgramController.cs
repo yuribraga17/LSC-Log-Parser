@@ -11,7 +11,7 @@ namespace Parser.Controllers
 {
     public static class ProgramController
     {
-        public const string AssemblyVersion = "4.1.9";
+        public const string AssemblyVersion = "4.2.0";
         public static readonly string Version = $"v{AssemblyVersion}";
         public const bool IsBetaVersion = false;
         public const string ParameterPrefix = "--";
@@ -30,7 +30,7 @@ namespace Parser.Controllers
             try
             {
                 ResourceDirectory = "Não encontrado";
-                LogLocation = $"client_resources\\{@"177.54.146.228_22005"}\\.storage";
+                LogLocation = $"client_resources\\{@"80.75.221.45_22005"}\\.storage";
 
                 // Return if the user has not picked
                 // a RAGEMP directory path yet

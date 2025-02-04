@@ -265,7 +265,7 @@ Isso significa que se você escolher inglês, você só poderá analisar o log d
     <value>em {0}</value>
   </data>
   <data name="MainIP" xml:space="preserve">
-    <value>177.54.146.228_22005</value>
+    <value>game.ls-chronicles.com.br_22005</value>
   </data>
   <data name="MinimizeInsteadOfClose" xml:space="preserve">
     <value>Fechar o parser impedirá que os backups automáticos aconteçam.
@@ -361,7 +361,7 @@ Os logs de bate-papo perdidos não podem ser recuperados.</value>
     <value>Ocorreu um erro ao tentar salvar o arquivo.</value>
   </data>
   <data name="SecondaryIP" xml:space="preserve">
-    <value>177.54.146.228_22005</value>
+    <value>80.75.221.45_22005</value>
   </data>
   <data name="SecondPlural" xml:space="preserve">
     <value>segundos</value>

@@ -142,7 +142,7 @@ Diretório de recursos: {2}</value>
     <value>Caminho de diretório RAGEMP inválido.</value>
   </data>
   <data name="MainIP" xml:space="preserve">
-    <value>177.54.146.228_22008</value>
+    <value>game.ls-chronicles.com.br_22008</value>
   </data>
   <data name="NoChatLog" xml:space="preserve">
     <value>Não consigo encontrar o log do LSC Chat Log.</value>
@@ -163,7 +163,7 @@ Diretório de recursos: {2}</value>
     <value>Ocorreu um erro ao tentar salvar o arquivo.</value>
   </data>
   <data name="SecondaryIP" xml:space="preserve">
-    <value>177.54.146.228_22008</value>
+    <value>80.75.221.45_22008</value>
   </data>
   <data name="SwitchServer" xml:space="preserve">
     <value>O analisador precisa reiniciar para mudar para o servidor.
